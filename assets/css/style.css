@@ -89,8 +89,7 @@
 
 .bg-theme-a {
     /*background-color: #c531ab; */
-    /*background: rgba(0, 0, 0, 0) linear-gradient(130deg, #a517fe, #fe5e17) repeat scroll 0 0;*/
-    background: rgba(0, 0, 0, 0) linear-gradient(130deg, #17fef3, #ffd400) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(130deg, #fe5e17, #a517fe) repeat scroll 0 0;
 }
 
 *,
