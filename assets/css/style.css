@@ -540,7 +540,27 @@ font-family: 'Open Sans', sans-serif;
     background-color: #fff;
 }
 
-.feature-list-right .feature-item::after {
+.feature-list-right .feature-item-d::after {
+    left: -55px;
+    right: 0;
+}
+
+.feature-list-right .feature-item-d::before {
+    right: auto;
+    left: 34px;
+}
+
+.feature-item-d::after {/*
+    content: '';*/
+    position: absolute;
+    right: -55px;
+    top: 0;
+    height: 2px;
+    width: 90px;
+    background-color: #fff;
+}
+
+.feature-list-right .feature-item-d::after {
     left: -55px;
     right: 0;
 }
