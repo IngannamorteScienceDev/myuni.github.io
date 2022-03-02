@@ -515,8 +515,8 @@ font-family: 'Open Sans', sans-serif;
     margin-top: 27px;
 }
 
-.feature-item::before {/*
-    content: '';*/
+.feature-item::before {
+    content: '';
     position: absolute;
     right: 34px;
     top: 0;
@@ -530,8 +530,8 @@ font-family: 'Open Sans', sans-serif;
     left: 34px;
 }
 
-.feature-item::after {/*
-    content: '';*/
+.feature-item::after {
+    content: '';
     position: absolute;
     right: -55px;
     top: 0;
@@ -579,6 +579,7 @@ font-family: 'Open Sans', sans-serif;
     position: relative;
 }
 
+<<<<<<< HEAD
 .feature-item-d .icon-d {
     height: 70px;
     width: 70px;
@@ -594,6 +595,8 @@ font-family: 'Open Sans', sans-serif;
 }
 
 /*
+=======
+>>>>>>> parent of 98e5e3f (обновление страницы)
 .feature-item .icon::before {
     content: '';
     position: absolute;
@@ -606,7 +609,7 @@ font-family: 'Open Sans', sans-serif;
     border-radius: 50%;
     transform: translateX(-50%);
 }
-*/
+
 .feature-item h4 {
     font-size: 18px;
     font-weight: 500;
