@@ -1,5 +1,4 @@
 /*-----------------------------------------------------------------------------------
-
     
     CSS INDEX
     ===================
@@ -28,7 +27,6 @@
        2.15 Footer Area
    3. Blog Details
     
-
 -----------------------------------------------------------------------------------*/
 
 
@@ -88,7 +86,7 @@
 }
 
 .bg-theme-a {
-    background-color: #fff; 
+    background-color: #c531ab; 
     /*background: rgba(0, 0, 0, 0) linear-gradient(130deg, #fe5e17, #a517fe) repeat scroll 0 0;*/
 }
 
@@ -134,10 +132,8 @@ textarea {
 
 /*font use*/
 /*
-
 font-family: 'Roboto', sans-serif;
 font-family: 'Open Sans', sans-serif;
-
 */
 
 /*===========================
@@ -463,23 +459,10 @@ font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
 
-.section-title-d {
-    margin-bottom: 50px;
-    text-align: center;
-}
-
 .section-title h2 {
     font-size: 30px;
     font-weight: 500;
     color: #fff;
-    letter-spacing: 0.01em;
-    margin-bottom: 11px;
-}
-
-.section-title-d h2 {
-    font-size: 30px;
-    font-weight: 500;
-    color: #d63e7d;
     letter-spacing: 0.01em;
     margin-bottom: 11px;
 }
@@ -490,10 +473,6 @@ font-family: 'Open Sans', sans-serif;
 
 .section-title p {
     color: #fff;
-}
-
-.section-title-d p {
-    color: #d63e7d;
 }
 
 .section-title.text-black p {
@@ -515,8 +494,8 @@ font-family: 'Open Sans', sans-serif;
     margin-top: 27px;
 }
 
-.feature-item::before {
-    content: '';
+.feature-item::before {/*
+    content: '';*/
     position: absolute;
     right: 34px;
     top: 0;
@@ -530,27 +509,7 @@ font-family: 'Open Sans', sans-serif;
     left: 34px;
 }
 
-.feature-item::after {
-    content: '';
-    position: absolute;
-    right: -55px;
-    top: 0;
-    height: 2px;
-    width: 90px;
-    background-color: #fff;
-}
-
-.feature-list-right .feature-item-d::after {
-    left: -55px;
-    right: 0;
-}
-
-.feature-list-right .feature-item-d::before {
-    right: auto;
-    left: 34px;
-}
-
-.feature-item-d::after {/*
+.feature-item::after {/*
     content: '';*/
     position: absolute;
     right: -55px;
@@ -560,7 +519,7 @@ font-family: 'Open Sans', sans-serif;
     background-color: #fff;
 }
 
-.feature-list-right .feature-item-d::after {
+.feature-list-right .feature-item::after {
     left: -55px;
     right: 0;
 }
@@ -578,25 +537,7 @@ font-family: 'Open Sans', sans-serif;
     margin-bottom: 11px;
     position: relative;
 }
-
-<<<<<<< HEAD
-.feature-item-d .icon-d {
-    height: 70px;
-    width: 70px;
-    display: inline-block;
-    background: #d63e7d;
-    text-align: center;
-    line-height: 70px;
-    border-radius: 50%;
-    font-size: 19px;
-    color: #fff;
-    margin-bottom: 11px;
-    position: relative;
-}
-
 /*
-=======
->>>>>>> parent of 98e5e3f (обновление страницы)
 .feature-item .icon::before {
     content: '';
     position: absolute;
@@ -609,7 +550,7 @@ font-family: 'Open Sans', sans-serif;
     border-radius: 50%;
     transform: translateX(-50%);
 }
-
+*/
 .feature-item h4 {
     font-size: 18px;
     font-weight: 500;
@@ -619,10 +560,6 @@ font-family: 'Open Sans', sans-serif;
 
 .feature-item p {
     color: #fff;
-}
-
-.feature-item-d p {
-    color: #d63e7d;
 }
 
 .feature-mscreen {
