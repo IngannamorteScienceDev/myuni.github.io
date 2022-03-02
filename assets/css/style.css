@@ -479,7 +479,7 @@ font-family: 'Open Sans', sans-serif;
 .section-title-d h2 {
     font-size: 30px;
     font-weight: 500;
-    color: #c531ab;
+    color: #d63e7d;
     letter-spacing: 0.01em;
     margin-bottom: 11px;
 }
@@ -493,7 +493,7 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .section-title-d p {
-    color: #c531ab;
+    color: #d63e7d;
 }
 
 .section-title.text-black p {
@@ -563,7 +563,7 @@ font-family: 'Open Sans', sans-serif;
     height: 70px;
     width: 70px;
     display: inline-block;
-    background: #c531ab;
+    background: #d63e7d;
     text-align: center;
     line-height: 70px;
     border-radius: 50%;
@@ -599,7 +599,7 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .feature-item-d p {
-    color: #c531ab;
+    color: #d63e7d;
 }
 
 .feature-mscreen {
